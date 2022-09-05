@@ -1,0 +1,29 @@
+.mission__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.mission__banner {
+    max-width: 642px;
+}
+
+.mission__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1C2323;
+    max-width: 487px;
+}
+
+.mission__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #486958;
+    max-width: 708px;
+}

@@ -1,0 +1,97 @@
+.testimonia {
+    margin-top: 250px;
+}
+
+.testimonia__banners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+
+.testimonia__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1c2323;
+}
+
+.testimonia__img {
+    width: 24%;
+}
+
+.testimonia__content {
+    display: flex;
+    background: #ccf0e6;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -3;
+    margin-top: 135px;
+
+}
+
+.testimonia__text {
+    max-width: 997px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.testimonia__sub_img {
+    max-width: 638px;
+}
+
+.testimonia__text-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonia__sub-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: #58a9a5;
+    max-width: 204px;
+}
+
+.testimonia__sub-small {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #58a9a5;
+}
+
+.testimonia__description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonia__description::after {
+    content: " ";
+    position: absolute;
+    width: 133px;
+    height: 321px;
+    background-image: url("../img/sing.png");
+    background-repeat: no-repeat;
+    top: -20%;
+    right: 90%;
+    z-index: -1;
+
+
+}
+
+.testimonia__sub-img {
+    height: 100%;
+}
